@@ -1,0 +1,7 @@
+- name: Install Android SDK
+  uses: reactivecircus/android-emulator-runner@v2
+  with:
+    api-level: 34
+    target: default
+    arch: x86_64
+    force-avd-creation: false
